@@ -21,3 +21,6 @@ destructor of class `Impl` from the wrong module.
 
 There are two distinct classes both named `Impl` in module `X.A` and module `X.B`. These
 classes are **not** exported, so they should be local to the modules (module linkage).
+
+The project was created with Microsoft Visual Studio Community 2022 (64-bit)
+Version 17.12.5. Open the file `mod_test.sln`.
