@@ -14,11 +14,11 @@ class Impl
 public:
     Impl()
     {
-        std::cout << "X::Impl::Impl() of module B called.\n";
+        std::cout << "X::Impl::Impl() of module X.B called.\n";
     }
     ~Impl()
     {
-        std::cout << "X::Impl::~Impl() of module B called.\n";
+        std::cout << "X::Impl::~Impl() of module X.B called.\n";
     }
 };
 

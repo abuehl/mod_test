@@ -16,11 +16,11 @@ class Impl
 public:
     Impl(int id) : id_{ id }
     {
-        std::cout << "X::Impl::Impl() of module A called. id_ is " << id_ << std::endl;
+        std::cout << "X::Impl::Impl() of module X.A called. id_ is " << id_ << std::endl;
     }
     ~Impl()
     {
-        std::cout << "X::Impl::~Impl() of module A called. id_ is " << id_ << std::endl;
+        std::cout << "X::Impl::~Impl() of module X.A called. id_ is " << id_ << std::endl;
     }
 };
 
