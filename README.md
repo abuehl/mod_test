@@ -15,8 +15,8 @@ The console output of the program is (example):
 	X::Impl::~Impl() of module X.A called. id_ is 1551069797
 	X::Impl::~Impl() of module X.A called. id_ is 42
 
-During the cleanup of function `f`, the wrong destructor ist called. The program
-calls the destructor of `Impl` of Module `X.A` twice, instead of once. It calls the 
+During the cleanup of function `f` in `mod_test.cpp`, the wrong destructor ist called. The
+program calls the destructor of `Impl` of Module `X.A` twice, instead of once. It calls the 
 destructor of class `Impl` from the wrong module.
 
 There are two distinct classes both named `Impl` in module `X.A` and module `X.B`. These
