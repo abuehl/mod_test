@@ -15,9 +15,9 @@ The console output of the program is (example):
 	X::Impl::~Impl() of module X.A called. id_ is 1551069797
 	X::Impl::~Impl() of module X.A called. id_ is 42
 
-During the cleanup of function f, the wrong destructor ist called. The program
-calls the destructor of Impl of Module X.A twice, instead of once. It calls the 
-destructor of class Impl from the wrong module.
+During the cleanup of function `f`, the wrong destructor ist called. The program
+calls the destructor of `Impl` of Module `X.A` twice, instead of once. It calls the 
+destructor of class `Impl` from the wrong module.
 
-There are to distinct classes both named "Impl" in module X.A and module X.B. These
+There are two distinct classes both named `Impl` in module `X.A` and module `X.B`. These
 classes are **not** exported, so they should be local to the modules (module linkage).
