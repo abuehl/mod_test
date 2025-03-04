@@ -9,7 +9,7 @@ import <memory>;
 namespace X
 {
 
-class Impl
+class Impl  // not exported!
 {
     int id_;
 
