@@ -3,7 +3,7 @@
 This small C++ 20 project using C++ modules demonstrates a compiler
 error present in:
 
-    Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34438 for x64
+    Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34808 for x64
 
 The console output of the program is (example):
 
@@ -22,5 +22,5 @@ destructor of class `Impl` from the wrong module.
 There are two distinct classes both named `Impl` in module `X.A` and module `X.B`. These
 classes are **not** exported, so they should be local to the modules (module linkage).
 
-The project was created with Microsoft Visual Studio Community 2022 (64-bit)
-Version 17.12.5. Open the file `mod_test.sln`.
+The project was created with Microsoft Visual Studio Community 2022 (64-bit) Version 17.13.2.
+Open the file `mod_test.sln`.
