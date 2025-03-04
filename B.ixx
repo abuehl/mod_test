@@ -25,11 +25,11 @@ public:
 
 export class B
 {
-    std::unique_ptr<Impl> rep;
+    std::unique_ptr<Impl> impl;
 
 public:
     B()
-        : rep{ std::make_unique<Impl>() }
+        : impl{ std::make_unique<Impl>() }
     {
     }
 
