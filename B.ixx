@@ -18,7 +18,7 @@ public:
     }
     ~Impl()
     {
-        std::cout << "X::Impl::Impl() of module B called.\n";
+        std::cout << "X::Impl::~Impl() of module B called.\n";
     }
 };
 
