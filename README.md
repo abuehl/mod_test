@@ -24,3 +24,6 @@ classes are **not** exported, so they should be local to the modules (module lin
 
 The project was created with Microsoft Visual Studio Community 2022 (64-bit) Version 17.13.4.
 Open the file `mod_test.sln`.
+
+The error is still present in Microsoft Visual Studio Community 2022 (64-bit) Version 17.14.0 Preview 6.0
+
